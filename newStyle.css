@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'FontName';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+}
+
+* {
+    font-family: 'FontName'!important;
+}
+
+#pagelet_ego_pane, ._4kqp, #appsNav, #pagelet_rhc_footer, ._1zp8:first-child, div[data-testid="chat_sidebar"]>div:nth-child(4), #createNav, ._2ec9 {
+    display: none!important;
+}
+
+._64b div {
+    background: rgba(0, 0, 0, 0)!important;
+}
+
+div._4-u2._1-ib {
+    background: rgba(0, 0, 0, .01)!important;
+}
+
+._2s1x ._2s1y {
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}

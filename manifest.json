@@ -1,0 +1,19 @@
+{
+    "name": "Facebook new Theme",
+    "version": "1.0",
+    "description": "Let's refresh your Facebook theme!",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "newStyle.css"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
